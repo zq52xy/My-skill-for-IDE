@@ -31,8 +31,21 @@ This skill establishes a strict working relationship between the User (Product A
 - Contains the full cognitive architecture, philosophy, and "GEB Fractal Documentation System Protocol".
 - Defines the "Ultrathink" mode and the "Linus Torvalds" persona.
 
+### 4. Implementation Standards
+**Sources**: 
+- [Website Initialization](references/website-initialization.md)
+- [Shadcn UI Integration](references/shadcn-ui-design.md)
+
+- **Tech Stack**: Vite + React + TailwindCSS v4.
+- **UI Library**: Shadcn UI (Batch installation required).
+- **Conventions**: Framer Motion for animations, Lucide for icons.
+
 ## Usage Guide
 
-1.  **Start of Project**: Read `design-system-protocol.md` to set up the visual foundation.
-2.  **During Development**: Refer to `role-definition.md` to maintain the correct communication style.
-3.  **Deep Debugging/Architecture**: Consult `summary-rules.md` for cognitive models and root cause analysis.
+1.  **Start of Project**: 
+    - Read `design-system-protocol.md` for visual foundation.
+    - Follow `website-initialization.md` to scaffold the project.
+2.  **UI Construction**: 
+    - Use `shadcn-ui-design.md` for component integration.
+    - Refer to `role-definition.md` for communication style.
+3.  **Deep Debugging/Architecture**: Consult `summary-rules.md` for cognitive models.

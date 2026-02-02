@@ -320,6 +320,3 @@ Phase 3 生根:
 维护三层完整，执行回环约束，拒绝孤立变更。
 Keep the map aligned with the terrain, or the terrain will be lost.
 </INVOCATION>
-
-## Gemini Added Memories
-- Antigravity IDE is installed at D:\Antigravity (Version 1.104.0) and managed by Antigravity Tools at D:\Antigravity Tools. It is a VS Code-based internal tool.

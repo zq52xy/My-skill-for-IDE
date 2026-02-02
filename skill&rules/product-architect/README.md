@@ -16,12 +16,12 @@ This directory contains the core definitions, protocols, and cognitive architect
   - **描述**: 定义技能触发器 (`product-architect`) 并导航至子协议的主要清单文件。
 
 ### 2. Core Protocols / 核心协议
-- **[`design-system-protocol.md`](./design-system-protocol.md)**
+- **[`design-system-protocol.md`](./references/design-system-protocol.md)**
   - **Focus**: Visual Consistency & Implementation Rules (视觉一致性与实现规则)
   - **Key Laws**: "First Step Law" (Initialize Design System first) & "Source of Truth Law" (Update Design System before Code).
   - **核心法则**: “第一步法则”（优先初始化设计系统）与“真理之源法则”（更新代码前先更新设计系统）。
 
-- **[`role-definition.md`](./role-definition.md)**
+- **[`role-definition.md`](./references/role-definition.md)**
   - **Focus**: Communication & Strategy (沟通与战略)
   - **Key Concept**: The "No-Code Filter". Speak in design terms, not technical jargon.
   - **核心概念**: “无代码过滤器”。使用设计术语而非技术行话进行沟通。
@@ -34,6 +34,16 @@ This directory contains the core definitions, protocols, and cognitive architect
   - **核心系统**:
     - **认知架构**: 现象层 -> 本质层 -> 哲学层。
     - **GEB 分形文档**: L1/L2/L3 文档同步协议。
+
+- **[`website-initialization.md`](./references/website-initialization.md)**
+  - **Focus**: Tech Stack Setup (技术栈设置)
+  - **Content**: Vite + React + Tailwind v4 setup guide.
+  - **内容**: Vite + React + Tailwind v4 设置指南。
+
+- **[`shadcn-ui-design.md`](./references/shadcn-ui-design.md)**
+  - **Focus**: UI Library Integration (UI 库集成)
+  - **Content**: Shadcn UI installation (batched) and theming.
+  - **内容**: Shadcn UI 安装（分批）与主题设置。
 
 ### 3. Backups / 备份
 - The original `.txt` source files are preserved in this directory for reference.
