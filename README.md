@@ -3,55 +3,65 @@
 
 This directory contains the core definitions, protocols, and cognitive architectures for the "Product Architect" persona. It is structured as a modular **Gemini Skill**.
 
-本目录包含了“产品架构师”角色的核心定义、协议和认知架构。它被构建为一个模块化的 **Gemini Skill**。
+本目录包含了“产品架构师”角色的核心定义、协议和认知架构。它被构建为一个模块化�?**Gemini Skill**�?
 
 ---
 
 ## 📂 File Structure / 文件结构
 
 ### 1. Entry Point / 入口
-- **[`SKILL.md`](./SKILL.md)**
-  - **Type**: Skill Definition (元数据定义)
+- **[`SKILL.md`](./skill&rules/product-architect/SKILL.md)**
+  - **Type**: Skill Definition (元数据定�?
   - **Description**: The main manifest file that defines the skill's triggers (`product-architect`) and navigates to the sub-protocols.
-  - **描述**: 定义技能触发器 (`product-architect`) 并导航至子协议的主要清单文件。
+  - **描述**: 定义技能触发器 (`product-architect`) 并导航至子协议的主要清单文件�?
 
 ### 2. Core Protocols / 核心协议
-- **[`design-system-protocol.md`](./design-system-protocol.md)**
+- **[`design-system-protocol.md`](./skill&rules/product-architect/references/design-system-protocol.md)**
   - **Focus**: Visual Consistency & Implementation Rules (视觉一致性与实现规则)
   - **Key Laws**: "First Step Law" (Initialize Design System first) & "Source of Truth Law" (Update Design System before Code).
-  - **核心法则**: “第一步法则”（优先初始化设计系统）与“真理之源法则”（更新代码前先更新设计系统）。
+  - **核心法则**: “第一步法则”（优先初始化设计系统）与“真理之源法则”（更新代码前先更新设计系统）�?
 
-- **[`role-definition.md`](./role-definition.md)**
+- **[`role-definition.md`](./skill&rules/product-architect/references/role-definition.md)**
   - **Focus**: Communication & Strategy (沟通与战略)
   - **Key Concept**: The "No-Code Filter". Speak in design terms, not technical jargon.
-  - **核心概念**: “无代码过滤器”。使用设计术语而非技术行话进行沟通。
+  - **核心概念**: “无代码过滤器”。使用设计术语而非技术行话进行沟通�?
 
-- **[`summary-rules.md`](./summary-rules.md)**
-  - **Focus**: Philosophy & Cognitive Architecture (哲学与认知架构)
+- **[`summary-rules.md`](./skill&rules/product-architect/summary-rules.md)**
+  - **Focus**: Philosophy & Cognitive Architecture (哲学与认知架�?
   - **Key Systems**: 
     - **Cognitive Architecture**: Phenomenal -> Essential -> Philosophical layers.
     - **GEB Fractal Documentation**: L1/L2/L3 documentation sync protocol.
   - **核心系统**:
-    - **认知架构**: 现象层 -> 本质层 -> 哲学层。
-    - **GEB 分形文档**: L1/L2/L3 文档同步协议。
+    - **认知架构**: 现象�?-> 本质�?-> 哲学层�?
+    - **GEB 分形文档**: L1/L2/L3 文档同步协议�?
+
+- **[`website-initialization.md`](./skill&rules/product-architect/references/website-initialization.md)**
+  - **Focus**: Tech Stack Setup (技术栈设置)
+  - **Content**: Vite + React + Tailwind v4 setup guide.
+  - **内容**: Vite + React + Tailwind v4 设置指南�?
+
+- **[`shadcn-ui-design.md`](./skill&rules/product-architect/references/shadcn-ui-design.md)**
+  - **Focus**: UI Library Integration (UI 库集�?
+  - **Content**: Shadcn UI installation (batched) and theming.
+  - **内容**: Shadcn UI 安装（分批）与主题设置�?
 
 ### 3. Backups / 备份
 - The original `.txt` source files are preserved in this directory for reference.
-- 原始的 `.txt` 源文件已保留在此目录中以供参考。
+- 原始�?`.txt` 源文件已保留在此目录中以供参考�?
 
 ---
 
 ## 🚀 Usage / 使用指南
 
 To activate this persona/skill context manually (if not installed as a system skill):
-若要手动激活此角色/技能上下文（如果未作为系统技能安装）：
+若要手动激活此角色/技能上下文（如果未作为系统技能安装）�?
 
 1.  **Load the Context**: Ask the AI to read `SKILL.md` and its referenced files.
-    **加载上下文**: 请求 AI 读取 `SKILL.md` 及其引用的文件。
+    **加载上下�?*: 请求 AI 读取 `SKILL.md` 及其引用的文件�?
 2.  **Enforce the Role**: Remind the AI of its role as "Lead Full-Stack Engineer" serving you, the "Product Architect".
-    **强化角色**: 提醒 AI 其作为服务于您（“产品架构师”）的“首席全栈工程师”的角色。
+    **强化角色**: 提醒 AI 其作为服务于您（“产品架构师”）的“首席全栈工程师”的角色�?
 3.  **Start Designing**: Begin every project by checking for `_design_system.html` per the protocol.
-    **开始设计**: 根据协议，开始每个项目时首先检查 `_design_system.html`。
+    **开始设�?*: 根据协议，开始每个项目时首先检�?`_design_system.html`�?
 
 ---
 
